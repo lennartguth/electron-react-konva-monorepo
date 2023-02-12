@@ -1,0 +1,16 @@
+{
+   "compilerOptions": {
+      "declaration": true,
+   },
+   "exclude": [
+      "packages/**/lib/**",
+      "packages/**/dist/**",
+      "packages/**/build/**",
+      "packages/**/node_modules/**"
+   ],
+   "references": [
+      {
+         "path": "./packages/*"
+      }
+   ]
+}

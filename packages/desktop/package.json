@@ -1,0 +1,38 @@
+{
+    "name": "desktop",
+    "version": "0.1.0",
+    "private": true,
+    "packageManager": "yarn@3.2.0",
+    "main": "lib/main/main.js",
+    "types": "lib/main/main.d.ts",
+    "scripts": {
+        "start": "nodemon --exec \"electron --remote-debugging-port=9223 --inspect .\"",
+        "watch": "tsc -b --watch"
+    },
+    "build": {
+        "extends": null,
+        "files": [
+            "lib/**/*"
+        ],
+        "directories": {
+            "buildResources": "assets"
+        }
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app"
+        ]
+    },
+    "dependencies": {
+        "electron-window-state": "^5.0.3"
+    },
+    "devDependencies": {
+        "@types/electron": "^1.6.10",
+        "@types/electron-devtools-installer": "^2.2.2",
+        "electron-builder": "^23.6.0",
+        "electron-devtools-installer": "^3.2.0",
+        "electron-reload": "^2.0.0-alpha.1",
+        "electronmon": "^2.0.2",
+        "nodemon": "^2.0.20"
+    }
+}

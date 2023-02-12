@@ -1,6 +1,6 @@
-# electron-konva-monorepo
+# electron-react-konva-monorepo
 
-Monorepo setup with Yarn workspaces
+Monorepo setup with Yarn workspaces  
 For simplicity this monorepo consists of only one single package "desktop"
 
 To run this repo:

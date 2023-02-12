@@ -11,4 +11,4 @@ yarn watch
 yarn desktop
 ```
 
-To open DevTools, use the shortcut "Ctrl+Shift+I" or the <F12> key.
+To open DevTools in Electron, use the shortcut "Ctrl+Shift+I" or the F12 key.

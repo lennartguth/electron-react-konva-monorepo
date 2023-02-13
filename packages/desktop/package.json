@@ -24,7 +24,12 @@
         ]
     },
     "dependencies": {
-        "electron-window-state": "^5.0.3"
+        "electron": "^23.0.0",
+        "electron-window-state": "^5.0.3",
+        "konva": "^8.4.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-konva": "^18.2.4"
     },
     "devDependencies": {
         "@types/electron": "^1.6.10",
@@ -32,7 +37,6 @@
         "electron-builder": "^23.6.0",
         "electron-devtools-installer": "^3.2.0",
         "electron-reload": "^2.0.0-alpha.1",
-        "electronmon": "^2.0.2",
         "nodemon": "^2.0.20"
     }
 }
